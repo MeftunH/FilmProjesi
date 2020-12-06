@@ -13,6 +13,7 @@ namespace FilmProjesi
     {
         public static void Main(string[] args)
         {
+            //degitirildi dosya
             CreateHostBuilder(args).Build().Run();
         }
 
