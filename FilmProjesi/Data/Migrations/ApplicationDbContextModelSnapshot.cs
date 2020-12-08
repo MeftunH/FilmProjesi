@@ -44,7 +44,7 @@ namespace FilmProjesi.Data.Migrations
                     b.Property<string>("Banner")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("CategoryId")
+                    b.Property<int?>("CategoryId")
                         .HasColumnType("int");
 
                     b.Property<string>("Content")
@@ -62,7 +62,7 @@ namespace FilmProjesi.Data.Migrations
                     b.Property<double?>("IMDB")
                         .HasColumnType("float");
 
-                    b.Property<int>("Lang_Id")
+                    b.Property<int?>("Lang_Id")
                         .HasColumnType("int");
 
                     b.Property<int?>("LanguageId")
@@ -299,9 +299,7 @@ namespace FilmProjesi.Data.Migrations
                 {
                     b.HasOne("FilmProjesi.Models.Category", "Category")
                         .WithMany()
-                        .HasForeignKey("CategoryId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("CategoryId");
 
                     b.HasOne("FilmProjesi.Models.Language", "Language")
                         .WithMany()

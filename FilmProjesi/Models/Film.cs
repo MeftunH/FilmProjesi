@@ -15,9 +15,9 @@ namespace FilmProjesi.Models
         public string Content { get; set; }
         public string Banner { get; set; }
         public string Fragman { get; set; }
-        public int CategoryId { get; set; }
+        public int? CategoryId { get; set; }
         public Category Category { get; set; }
-        public int Lang_Id { get; set; }
+        public int? Lang_Id { get; set; }
         public Language Language { get; set; }
 
     }

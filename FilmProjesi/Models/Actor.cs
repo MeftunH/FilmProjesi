@@ -11,7 +11,7 @@ namespace FilmProjesi.Models
         public string Name { get; set; }
         public string Surname { get; set; }
         public DateTime Dateofbirth { get; set; }
-        public int CountryId { get; set; }
+        public int? CountryId { get; set; }
         public Country Country { get; set; }
         public Gender gender { get; set; }
         public enum Gender

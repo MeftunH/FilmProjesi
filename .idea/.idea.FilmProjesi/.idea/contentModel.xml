@@ -25,6 +25,8 @@
             <e p="00000000000000_CreateIdentitySchema.Designer.cs" t="Include" />
             <e p="20201201183601_Base_Tables.cs" t="Include" />
             <e p="20201201183601_Base_Tables.Designer.cs" t="Include" />
+            <e p="20201208172223_updateFilmoyuncu.cs" t="Include" />
+            <e p="20201208172223_updateFilmoyuncu.Designer.cs" t="Include" />
             <e p="ApplicationDbContextModelSnapshot.cs" t="Include" />
           </e>
         </e>
@@ -34,11 +36,15 @@
           <e p="Category.cs" t="Include" />
           <e p="Country.cs" t="Include" />
           <e p="Director.cs" t="Include" />
+          <e p="District.cs" t="Include" />
           <e p="ErrorViewModel.cs" t="Include" />
           <e p="Film.cs" t="Include" />
           <e p="FilmActor.cs" t="Include" />
           <e p="FilmDirector.cs" t="Include" />
           <e p="Language.cs" t="Include" />
+          <e p="Salon.cs" t="Include" />
+          <e p="Show.cs" t="Include" />
+          <e p="Township.cs" t="Include" />
         </e>
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">

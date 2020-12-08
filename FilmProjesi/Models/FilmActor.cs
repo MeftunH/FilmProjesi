@@ -12,6 +12,7 @@ namespace FilmProjesi.Models
         public Film Film { get; set; }
         public int ActorId { get; set; }
         public int? Number { get; set; }
+        public string Role { get; set; }
         public Actor Actor { get; set; }
     }
 }
