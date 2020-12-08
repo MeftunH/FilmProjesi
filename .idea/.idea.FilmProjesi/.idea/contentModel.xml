@@ -34,6 +34,7 @@
         <e p="Models" t="Include">
           <e p="Actor.cs" t="Include" />
           <e p="Category.cs" t="Include" />
+          <e p="Cinema.cs" t="Include" />
           <e p="Country.cs" t="Include" />
           <e p="Director.cs" t="Include" />
           <e p="District.cs" t="Include" />

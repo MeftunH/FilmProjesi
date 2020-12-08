@@ -22,31 +22,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="949c4dbb-da46-433d-845d-a3fc51a34293" name="Default Changelist" comment="ikinici commit">
-      <change afterPath="$PROJECT_DIR$/FilmProjesi/Models/Show.cs" afterDir="false" />
+    <list default="true" id="949c4dbb-da46-433d-845d-a3fc51a34293" name="Default Changelist" comment="add new models,change some field of exist models">
+      <change afterPath="$PROJECT_DIR$/FilmProjesi/Models/Salon.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.FilmProjesi/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.FilmProjesi/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.FilmProjesi/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.FilmProjesi/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/FilmProjesi/DesignTimeBuild/.dtbcache.v2" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/FilmProjesi/DesignTimeBuild/.dtbcache.v2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/FilmProjesi/v16/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/FilmProjesi/v16/.suo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/VSWorkspaceState.json" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/VSWorkspaceState.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/slnx.sqlite" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/slnx.sqlite" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FilmProjesi/Data/Migrations/ApplicationDbContextModelSnapshot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FilmProjesi/Data/Migrations/ApplicationDbContextModelSnapshot.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FilmProjesi/Models/Actor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FilmProjesi/Models/Actor.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FilmProjesi/Models/Director.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FilmProjesi/Models/Director.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FilmProjesi/Models/Film.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FilmProjesi/Models/Film.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FilmProjesi/Models/FilmActor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FilmProjesi/Models/FilmActor.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FilmProjesi/Models/FilmDirector.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FilmProjesi/Models/FilmDirector.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FilmProjesi/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FilmProjesi/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FilmProjesi/bin/Debug/netcoreapp3.1/FilmProjesi.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/FilmProjesi/bin/Debug/netcoreapp3.1/FilmProjesi.Views.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FilmProjesi/bin/Debug/netcoreapp3.1/FilmProjesi.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/FilmProjesi/bin/Debug/netcoreapp3.1/FilmProjesi.Views.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FilmProjesi/bin/Debug/netcoreapp3.1/FilmProjesi.dll" beforeDir="false" afterPath="$PROJECT_DIR$/FilmProjesi/bin/Debug/netcoreapp3.1/FilmProjesi.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FilmProjesi/bin/Debug/netcoreapp3.1/FilmProjesi.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/FilmProjesi/bin/Debug/netcoreapp3.1/FilmProjesi.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FilmProjesi/obj/Debug/netcoreapp3.1/FilmProjesi.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/FilmProjesi/obj/Debug/netcoreapp3.1/FilmProjesi.Views.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FilmProjesi/obj/Debug/netcoreapp3.1/FilmProjesi.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/FilmProjesi/obj/Debug/netcoreapp3.1/FilmProjesi.Views.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FilmProjesi/obj/Debug/netcoreapp3.1/FilmProjesi.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/FilmProjesi/obj/Debug/netcoreapp3.1/FilmProjesi.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FilmProjesi/obj/Debug/netcoreapp3.1/FilmProjesi.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/FilmProjesi/obj/Debug/netcoreapp3.1/FilmProjesi.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FilmProjesi/obj/Debug/netcoreapp3.1/FilmProjesi.dll" beforeDir="false" afterPath="$PROJECT_DIR$/FilmProjesi/obj/Debug/netcoreapp3.1/FilmProjesi.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FilmProjesi/obj/Debug/netcoreapp3.1/FilmProjesi.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/FilmProjesi/obj/Debug/netcoreapp3.1/FilmProjesi.pdb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,8 +38,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/FilmProjesi/Program.cs" />
-        <option value="$PROJECT_DIR$/FilmProjesi/Models/Salon.cs" />
         <option value="$PROJECT_DIR$/FilmProjesi/Models/Show.cs" />
+        <option value="$PROJECT_DIR$/FilmProjesi/Models/Cinema.cs" />
+        <option value="$PROJECT_DIR$/FilmProjesi/Models/Salon.cs" />
       </list>
     </option>
   </component>
@@ -118,7 +97,7 @@
       <option name="presentableId" value="Default" />
       <updated>1607289692995</updated>
       <workItem from="1607289702592" duration="1305000" />
-      <workItem from="1607448991529" duration="1524000" />
+      <workItem from="1607448991529" duration="1825000" />
     </task>
     <task id="LOCAL-00001" summary="ikinici commit">
       <created>1607290344256</created>
@@ -127,7 +106,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607290344256</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add new models,change some field of exist models">
+      <created>1607450595204</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1607450595204</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -149,7 +135,8 @@
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="ikinici commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="ikinici commit" />
+    <MESSAGE value="add new models,change some field of exist models" />
+    <option name="LAST_COMMIT_MESSAGE" value="add new models,change some field of exist models" />
   </component>
   <component name="WindowStateProjectService">
     <state x="836" y="418" key="Github.ShareDialog" timestamp="1607289995453">
@@ -164,10 +151,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="165" key="SettingsEditor/1920.2.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1607449079629" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1607290496694">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="2362" y="204" key="Vcs.Push.Dialog.v2" timestamp="1607450538625">
+      <screen x="1920" y="2" width="1536" height="832" />
     </state>
     <state x="552" y="253" key="Vcs.Push.Dialog.v2/1920.2.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1607290496694" />
+    <state x="2362" y="204" key="Vcs.Push.Dialog.v2/1920.2.1536.832/0.0.1920.1040@1920.2.1536.832" timestamp="1607450538625" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1607449123107">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
